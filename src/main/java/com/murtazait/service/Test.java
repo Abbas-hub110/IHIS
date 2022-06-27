@@ -10,10 +10,10 @@ import com.murtazait.repository.AppPlanRepository;
 public class Test {
 
 	@Autowired
-	AppPlanRepository repository;
+	AppPlanRepository repository1;
 
 	public String addPlan(AppPlanEntity ap) {
-		repository.save(ap);
+		repository1.save(ap);
 		return "YES";
 	}
 }
